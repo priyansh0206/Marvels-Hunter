@@ -1,0 +1,114 @@
+/* the default stylings */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    cursor: url(../images/thanos.png),auto;
+}
+
+/* styling for the main container */
+.banner{
+    width: 100%;
+    /* height: 100%; */
+    background-image: linear-gradient(rgba(0,0,0,0.40),rgba(0,0,0,0.40));
+    background-position: center;
+    background-size: center;
+    z-index: -2;
+    flex-grow: 1;
+    overflow-y: auto; /* Add scrollbars when content exceeds viewport height */
+    height: 100vh;
+}
+
+/* styling for the navigation bar */
+.navbar{
+    width: 100%;
+    padding: 30px 20px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: rgba(89, 91, 93, 0.3); */
+}
+.logo-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    /* border: 5px solid red; */
+    width: 70%;
+    /* cursor: default; */
+    
+}
+.logo{
+    width: 160px;
+    margin-top: -10px;
+    border-radius: 45%;
+    /* cursor: pointer; */
+}
+.logo-container h2{
+    color: rgb(233, 100, 100);
+    font-size: 3rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* border: 5px solid cyan; */
+}
+.logo-container h2:hover{
+    color: white;
+    /* cursor: pointer; */
+    -webkit-text-stroke: 2px rgb(233, 100, 100);
+    text-shadow: 2px rgb(233, 100, 100);
+    font-size: 3.1rem;
+}
+.logo:hover{
+    background-color: white;
+    /* cursor: pointer; */
+}
+.navbar ul li{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 20px;
+    /* border: 5px solid red; */
+}
+.navbar ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 600;
+    padding: 15px;
+}
+li a:hover{
+    background: white;
+    transition: 0.5s;
+}
+.navbar a:hover{
+    color: black;
+    border-radius: 0rem;
+}
+
+/* styling for the background video */
+.banner video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    -o-object-fit: cover;
+    object-fit: cover;
+    width: 100%;
+    height: 100vh;
+    filter: brightness(0.8);
+}
+
+
+/* styling for the footer contact */
+.footer-tags a{
+    text-decoration: none;
+    border: 0;
+}
+
+.selected{
+    background-color: white;
+    color: black !important; 
+    border-radius: 5rem;
+}

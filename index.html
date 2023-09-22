@@ -1,0 +1,93 @@
+<html lang="en">
+
+<head>
+  <!-- viewports and title setup -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SuperHero | Home Page</title>
+
+  <!-- bootstrap styles link -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <!-- css styles link -->
+  <link rel="stylesheet" type="text/css" href="assets/css/home.css">
+  <!-- media styles link -->
+  <link rel="stylesheet" type="text/css" href="assets/css/media.css">
+</head>
+
+<body>
+  <div class="banner">
+    <video autoplay loop muted plays-inline>
+      <!-- background video loaded from here -->
+      <source src="assets/videos/homepage.mp4" type="video/mp4">
+    </video>
+    <div class="navbar">
+      <!-- the navigation bar container -->
+      <a href="index.html" class="logo-container">
+        <img class="logo" src="assets/images/logo.png">
+        <h2>Welcome to Marvel Hunter</h2>
+      </a>
+      <ul>
+        <!-- the contents of navigation -->
+        <li><a href="index.html" class="selected"><i>Home</i></a></li>
+        <li><a href="favourites.html">Favorites</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </div>
+    <div class="content">
+      <!-- the main contents of the page -->
+      <div class="search">
+        <input type="text" placeholder="Search for any character" id="searchbox">
+        <button id="search-button">
+          Search <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+      </div>
+      <ul id="search-list">
+
+      </ul>
+    </div>
+
+    <!-- the more information modal -->
+    <div class="modal fade" id="myModal" tabindex="-1">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content bg-dark">
+          <div class="modal-header">
+            <h5 class="modal-title fs-1 text-light"></h5>
+            <button type="button" class="btn-close bg-danger modal-close"></button>
+          </div>
+          <div class="modal-body">
+            <p class="modal-description fs-3 text-light">Sorry no records found for this character <i
+                class="fa-regular fa-face-frown-open"></i></p>
+            <br><br>
+            <p class="fs-4 text-light">
+              For more information over the characters please do visit the official site link provided below:
+              <br>
+              <a href="https://www.marvel.com/characters" target="_blank"><i>Click here to redirect you the official
+                  site</i></a>
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger modal-close">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Include jQuery -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+  <!-- Include CryptoJS from a CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.js"></script>
+
+  <!-- Include main JavaScript file (home.js) that uses CryptoJS -->
+  <script type="module" src="assets/js/home.js"></script>
+
+  <!-- Other script tags for additional libraries -->
+  <script src="https://kit.fontawesome.com/27da04ddc2.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
