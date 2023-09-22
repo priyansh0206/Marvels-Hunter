@@ -42,27 +42,31 @@ Download the files as zip and extract.
 
 - **Home Page:**
 
-![home1](https://github.com/priyansh0206/Marvels-Hunter/assets/52272181/201ebf2b-4029-4287-86e9-f2fb1dc4ffe5)
+![home1](https://github.com/priyansh0206/Marvels-Hunter/assets/52272181/ef00f500-d3e0-4eb0-999e-a692d0f4d8ba)
 
-![home2](https://github.com/priyansh0206/Marvels-Hunter/assets/52272181/6672d1c3-7d84-451e-9e92-0294a43480ac)
+![home2](https://github.com/priyansh0206/Marvels-Hunter/assets/52272181/dddbef7c-6c82-4cfb-ba09-82567c0508cb)
 
-![home3](https://github.com/priyansh0206/Marvels-Hunter/assets/52272181/403bb02f-9e9f-4d34-83ce-689409c20222)
+![home3](https://github.com/priyansh0206/Marvels-Hunter/assets/52272181/eeef4d75-3a60-4a99-a5a7-62d8baa81660)
 
-- **Favourite Page:**
 
-![fav1](https://github.com/priyansh0206/Marvels-Hunter/assets/52272181/a4c90a1f-3231-4ec7-8eec-b47c3ac5b324)
+- **Favourites Page:**
 
-![fav2](https://github.com/priyansh0206/Marvels-Hunter/assets/52272181/119a0d25-4633-49c4-a861-6f7b0fc96328)
+![fav1](https://github.com/priyansh0206/Marvels-Hunter/assets/52272181/53e9b3ee-3e45-425a-b5a1-5bb47378d85d)
 
-![fav3](https://github.com/priyansh0206/Marvels-Hunter/assets/52272181/c6ecbe9f-9eea-493d-89a9-dd993e783d6d)
+![fav2](https://github.com/priyansh0206/Marvels-Hunter/assets/52272181/67001532-eab9-4b29-afef-bae8dedef86a)
+
+![fav3](https://github.com/priyansh0206/Marvels-Hunter/assets/52272181/eb945f27-8eb0-4894-b172-693b5002e9e1)
+
 
 - **More Info Box:**
 
-![moreinfo](https://github.com/priyansh0206/Marvels-Hunter/assets/52272181/fe38aa41-6352-416f-8476-bab54f612fe4)
+![moreinfo](https://github.com/priyansh0206/Marvels-Hunter/assets/52272181/c75b7c83-b45d-4d2d-9406-dc9ef25532d1)
+
 
 - **About Page:**
 
-![about](https://github.com/priyansh0206/Marvels-Hunter/assets/52272181/6e73a1cf-96f0-4d04-b11e-227c6bbb2deb)
+![about](https://github.com/priyansh0206/Marvels-Hunter/assets/52272181/8bc9cb53-cdda-4ac3-8e6a-84f688e80514)
+
 
 ## Support
 
