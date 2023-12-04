@@ -1,5 +1,7 @@
 # **URL:** https://priyansh0206.github.io/Marvels-Hunter/
 
+# **Video Demo:** https://drive.google.com/file/d/1QSjvGOxjBqJ0E3xq1ngtDxIk-dai220m/view?usp=sharing
+
 # Marvels-Hunter
 
 The Marvels Hunter app is a fictional or entertainment-based application designed for users who are fans of Marverls superhero-themed content. Marvels Hunter application is a web-based application based upon Hypertext Markup Language structure and styled with Cascading Style Sheets along with the support of JavaScript. The API used with code is The Marvel Comics API which is a RESTful service that provides methods for accessing specific resources at canonical URLs and for searching and filtering sets of resources by various criteria. All representations are encoded as JSON objects. You can search and explore your SuperHero and can add to your favourites. No more wait! Just Marvelsss 😁
